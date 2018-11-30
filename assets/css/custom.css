@@ -1,0 +1,761 @@
+/* ----------------------------------------------------
+Theme Name:		Bii-Design - HTML Template
+Version:		1.0.1
+Author:			Bii-Design
+------------------------------------------------------- */
+/* -----------------------------------------------------
+		Global
+   ----------------------------------------------------- */
+.p-a-0{
+    padding:0!important;
+}
+.p-t-5{
+    padding-top:5px;
+}
+.p-t-10{
+    padding-top:10px;
+}
+.p-t-25{
+    padding-top:25px;
+}
+.p-a-10 {
+  padding: 10px;
+}
+.p-a-15 {
+  padding: 15px;
+}
+.p-t-15 {
+  padding-top: 15px;
+}
+.p-b-5 {
+  padding-bottom: 5px;
+}
+.p-b-10 {
+  padding-bottom: 10px;
+}
+.p-b-15 {
+  padding-bottom: 15px;
+}
+.p-r-15 {
+  padding-right: 15px;
+}
+.p-r-10 {
+  padding-right: 10px;
+}
+.p-r-5 {
+  padding-right: 5px;
+}
+.p-l-5 {
+  padding-left: 5px!important;
+}
+.p-l-10 {
+  padding-left: 10px;
+}
+.p-l-15 {
+  padding-left: 15px;
+}
+.p-r-25{
+    padding-right:25px;
+}
+.p-a-30 {
+  padding: 30px;
+}
+.p-t-30 {
+  padding-top: 30px;
+}
+.p-b-30 {
+  padding-bottom: 30px;
+}
+.p-r-30 {
+  padding-right: 30px;
+}
+.p-l-30 {
+  padding-left: 30px;
+}
+.p-t-b-0{
+    padding-top:0!important;
+    padding-bottom:0!important;
+}
+.p-t-b-10{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.p-l-r-0{
+    padding-left:0;
+    padding-right:0;
+}
+.p-l-r-5{
+    padding-left:5px;
+    padding-right:5px;
+}
+.p-l-r-10{
+    padding-left:10px;
+    padding-right:10px;
+}
+.p-l-r-25{
+    padding-left:25px;
+    padding-right:25px;
+}
+.p-t-b-5{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.p-t-b-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.p-r-l-15 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.p-t-b-30 {
+  padding-top: 30px!important;
+  padding-bottom: 30px!important;
+}
+.p-r-l-30 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.m-t-0 {
+  margin-top: 0;
+}
+.m-b-0{
+    margin-bottom:0px!important;
+}
+.m-b-5{
+    margin-bottom:5px!important;
+}
+.m-b-10{
+    margin-bottom:10px!important;
+}
+.m-b-15{
+    margin-bottom:15px!important;
+}
+.m-a-15 {
+  margin: 15px;
+}
+.m-t-5{
+    margin-top: 5px;
+}
+.m-t-10{
+    margin-top:10px;
+}
+.m-t-15 {
+  margin-top: 15px;
+}
+.m-t-min35{
+    margin-top:-35px
+}
+.m-b-15 {
+  margin-bottom: 15px;
+}
+.m-r-15 {
+  margin-right: 15px;
+}
+.m-l-15 {
+  margin-left: 15px;
+}
+.m-a-30 {
+  margin: 30px;
+}
+.m-t-30 {
+  margin-top: 30px;
+}
+.m-b-30 {
+  margin-bottom: 30px;
+}
+.m-r-30 {
+  margin-right: 30px;
+}
+.m-l-30 {
+  margin-left: 30px;
+}
+.m-t-b-0{
+    margin-top:0;
+    margin-bottom:0;
+}
+.m-t-b-5{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.m-t-b-10{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.m-t-b-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.m-r-l-5 {
+    margin-left:5px;
+    margin-right:5px;
+}
+.m-r-l-15 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.m-t-b-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.m-t-b-100{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.m-r-l-30 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.m-r-l-auto{
+    margin-left:auto;
+    margin-right:auto;
+}
+.text-bold{
+    font-weight: bold;
+}
+.btn-submit-search .btn{
+    padding:10px 12px;
+}
+.btn {
+    text-transform: none;
+}
+.main-navbar .navbar-header .navbar-brand span {
+    color: #ffffff;
+}
+
+li.divider {
+    background-color: #c1c3c6;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 16px;
+    width: 1px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.custom-modal .modal-content{
+    border-top: 8px solid #828282;
+}
+.custom-modal .modal-content:after{
+    background: #828282;
+}
+.footer-widget.ftr-contact span.widget-address{
+    position:absolute;
+}
+
+@media(min-width: 768px){
+    .main-navbar.navbar-custom .navbar-brand{
+        font-size: 1.8em;
+    }
+}
+@media (min-width: 1200px){
+    .main-navbar.navbar-custom .navbar-brand {
+        padding-top: 10px;
+    }
+    .main-navbar.navbar-custom .navbar-nav > li.divider{
+        margin:25px 0;
+    }
+}
+
+/*=====================================
+    Support online
+=======================================*/
+.support-online {
+    position: fixed;
+    z-index: 999;
+    left: 20px;
+    bottom:0px;
+}
+
+.support-online a {
+    position: relative;
+    margin: 20px 10px;
+    text-align: left;
+    width: 40px;
+    height: 40px;
+}
+
+.support-online i {
+    width: 40px;
+    height: 40px;
+    background: #038c25;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.9;
+    position: relative;
+    z-index: 999;
+}
+
+.support-online a span {
+    border-radius: 2px;
+    text-align: center;
+    background: rgb(103, 182, 52);
+    padding: 9px;
+    display: none;
+    width: 180px;
+    margin-left: 10px;
+    position: absolute;
+    color: #ffffff;
+    z-index: 999;
+    top: 0px;
+    left: 40px;
+    transition: all 0.2s ease-in-out 0s;
+    -moz-animation: headerAnimation 0.7s 1;
+    -webkit-animation: headerAnimation 0.7s 1;
+    -o-animation: headerAnimation 0.7s 1;
+    animation: headerAnimation 0.7s 1;
+}
+
+.support-online a:hover span {
+    display: block;
+}
+
+.support-online a {
+    display: block;
+}
+
+.support-online a span:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent  rgb(103, 182, 52) transparent transparent;
+    position: absolute;
+    left: -10px;
+    top: 10px;
+}
+
+.kenit-alo-circle-fill {
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    position: absolute;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background-color: rgba(3, 140, 37, 0.38);
+    opacity: .75;
+    right: -10px;
+}
+
+.kenit-alo-circle {
+    width: 50px;
+    height: 50px;
+    top: -5px;
+    right: -5px;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid rgba(30, 30, 30, 0.4);
+    opacity: .1;
+    border-color: #038c25;
+    opacity: .5;
+}
+
+.support-online .btn-support {
+    cursor: pointer;
+}
+
+
+/* -----------------------------------------------------
+		Login
+   ----------------------------------------------------- */
+.top-bar-info{
+    font-weight: 600;
+    text-align: center;
+}
+.btn-facebook{
+    background: #4267b2;
+    color:  #fff;
+    margin-right:  10px;
+    border-radius: 5px;
+    text-transform:none;
+}
+.btn-google{
+    background:#e2402b;
+    color:#fff;
+    margin-left:10px;
+    border-radius: 5px;
+}
+.btn-facebook span, .btn-google span{
+    margin:  5px;
+    font-size:  20px
+}
+
+/* -----------------------------------------------------
+		Home
+   ----------------------------------------------------- */
+
+#slider-4 li.item-1{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/rizaltrans/slider-1.jpg) 50% 65%;
+    background-size:cover;
+    height:100%;
+}
+#slider-4 li.item-2{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/rizaltrans/slider-2.jpg) 50% 65%;
+    background-size:cover;
+    height:100%;
+}
+#slider-4 li.item-3{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/rizaltrans/slider-3.jpg) 50% 65%;
+    background-size:cover;
+    height:100%;
+}
+.list-bus{
+    color: white;
+    background: rgb(0, 0, 0);
+    padding: 14px 20px;
+}
+.bus{
+    font-size: 22px;
+    font-weight: bold;
+}
+.list-bus li .arrow {
+    float: right;
+    margin-top: -3px;
+}
+.list-bus .arrow .fa {
+    background: #038c25;
+}
+
+.list-bus ul li .fa {
+    margin-top: 0px;
+}
+/* search */
+.btn-submit-search{
+    float: right;
+}
+@media (min-width: 1200px){
+    #slider-4 {
+        height: 450px;
+    }
+    #flexslider-container-4, #slider-4 .slides, #slider-4 .flex-viewport {
+        height: 500px;
+    }
+    #slider-4 .slides > li {
+        height: 500px;
+    }
+}
+@media(max-width:425px){
+    .btn-submit-search{
+        float: none;
+    }
+    .btn-submit-subscribe{
+        margin-top:10px;
+    }
+}
+
+/* -----------------------------------------------------
+		User Profile
+   ----------------------------------------------------- */
+.sidebar-account .account-menu {
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #9a9a9a;
+}
+.sidebar-account .account-menu .nav.nav-tabs span {
+    padding-right: 10px;
+}
+.sidebar-account .nav-tabs li a{
+    margin:0;
+    border:0;
+    border-radius: 0;
+    font-weight: 600;
+    color: #038c25;
+}
+.sidebar-account .nav-tabs>li.active>a, 
+.sidebar-account .nav-tabs>li.active>a:focus, 
+.sidebar-account .nav-tabs>li.active>a:hover {
+    color: #000;
+    font-weight: 600;
+    cursor: default;
+    background-color: #038c2557;
+    border: 0;
+}
+.sidebar-account .profile-user{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #a2a2a2;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.sidebar-account .profile-user:hover{
+    /*filter: drop-shadow(0 0 0.75rem #038c25);*/
+    box-shadow: 5px 5px 10px #a2a2a2;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.innerpage-wrapper {
+    background: #f2f8fd;
+}
+.sidebar-account .user-profile .profile-user span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+.sidebar-account .user-profile .profile-user .detail-profile span{
+    font-size:14px;
+    font-weight: 600;
+}
+.sidebar-account .user-profile .profile-user .btn.btn-green.edit-profil{
+   float: right;
+}
+.user-profile .bg-point{
+    background:#038c25;
+    color: #fff;
+}
+.user-profile .bg-point h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.progress-point .skillBarContainer {
+    width: 100%;
+    max-width: 350px;
+    height:26px;
+    height: 1.66em;
+    background: #e6eae3;
+    background: rgb(8,102,220);
+    background: rgba(8,102,220,.2);
+    overflow: hidden;
+    border-radius:5px;
+}
+.progress-point .skillBarValue {
+    height: 1.66em;
+    float: left;
+    background:#0866dc;
+    background: rgb(3, 140, 37);
+    background: rgb(3, 140, 37,.85);
+  }
+
+@media(max-width:425px){
+    .sidebar-account .user-profile{
+        padding-top: 20px;
+    }
+}
+/*-----------------------------------------------------
+        Konfirmasi Pembayaran
+-------------------------------------------------------*/
+.side-bar .booking-form.payment-confirm input, .side-bar .booking-form.payment-confirm select {
+    background: #ffffff;
+    border-radius: 0px;
+    box-shadow: none;
+    border-color: #e6e7e8;
+}
+
+/* -----------------------------------------------------
+		Reservasi Bus
+   ----------------------------------------------------- */
+#z-search-form-bus {
+    background: #33a83d url(../images/rizaltrans/bg-bus.png);
+    background-size: cover;
+    padding: 100px 0;
+}
+#z-search-form-bus .z-searh-form-inside {
+    padding: 15px 30px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+    margin-bottom: 15px;
+}
+#z-search-form-bus .z-searh-form-inside:hover {
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
+}
+#z-search-form-bus #z-search-form-container .z-form-search .form-group input{
+    padding-left: 38px;
+}
+/*#z-search-form-bus #z-search-form-container .z-form-search .form-group input.form-control{*/
+   /*height: 50px;*/
+/*}*/
+#z-search-form-bus #z-search-form-container .z-form-search .form-group.left-icon .fa{
+    top: 12px;
+    left:30px;
+    font-size: 15px;
+}
+#z-search-form-bus #z-search-form-container .z-form-search .form-group.left-icon .fa{
+    position: absolute;
+    pointer-events: none;
+}
+@media(max-width:425px){
+    #z-search-form-bus .z-searh-form-inside{
+        margin-left: 20px;
+        margin-right:20px;
+    }
+}
+
+/* -----------------------------------------------------
+		Reservasi Bus
+   ----------------------------------------------------- */
+#bus-listing .list-info.cr-list-info {
+    background: #d1f0d8;
+}
+#bus-listing .car-features li:hover .fa {
+    border-color: #58595b;
+    background: #0ba532;
+    color: white;
+}
+#bus-listing .side-bar .support-block.chat-whatsapp p a {
+    color: #038c25;
+}
+#bus-listing .widget-search-filter .fa {
+    top: 20px;
+    position: absolute;
+    left: 25px;
+}
+#bus-listing .widget-search-filter input{
+    padding-left:30px;
+}
+#bus-listing .side-bar .filter-block{
+    padding: 33px 25px;
+}
+
+#bus-listing .side-bar-block.filter-block{
+    transition: .4s;
+    border-radius: 5px
+}
+#bus-listing .side-bar .filter-block h3{
+    text-align: center;
+}
+#bus-listing .widget-search-filter .btn-green {
+    background: #fff;
+    color: #000;
+}
+#bus-listing .widget-search-filter .btn-green:hover {
+    background: #010101;
+    color: #fff;
+}
+#bus-listing .side-bar-block .widget-search-filter .list-item,
+#bus-listing .side-bar-block .widget-search-filter .list-detail{
+    padding: 0;
+}
+#bus-listing .side-bar-block .widget-search-filter .list-item li{
+    list-style: none;
+    padding: 5px 15px;
+    background: #fff;
+    border-radius: 10px;
+}
+#bus-listing .side-bar-block .widget-search-filter .list-detail li{
+    list-style: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0;
+}
+#bus-listing .side-bar-block .widget-search-filter .list-detail li.item-remove a{
+    color:red;
+    font-size: 25px;
+    text-align: right;
+    position: absolute;
+    top: 18px;
+    right: 55px;
+}
+#bus-listing .side-bar-block .widget-search-filter .list-detail li.item-remove .fa{
+    position: inherit;
+    top: inherit;
+    left: inherit;
+}
+#z-search-form-bus #z-search-form-container .z-form-search .btn{
+    padding:8px 45px;
+    border:1px solid #ccc;
+}
+.side-bar .booking-form-block .selected-price {
+    background: #038c25;
+    color: white;
+}
+
+.selected-price .name-bus-booking{
+    display: inherit;
+}
+.side-bar .booking-form .form-group input{
+    color: #000;
+}
+.feature-slider-nav .slick-arrow, .feature-slider-nav .slick-arrow:hover, .feature-slider-nav .slick-arrow:focus{
+    background: #038c25;
+}
+.book-code{
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+    border: 1px solid;
+    margin: 10px 0px;
+}
+.total-price-bus .col-xs-7,.total-price-bus .col-sm-8{
+    text-align: right;
+}
+.total-price-bus .total-price-value{
+    border-top:1px solid;
+}
+.list-bank{
+    background:#dadada;
+    padding: 10px;
+}
+.table.table-list-booking th {
+    background: #29a548;
+    color: #fff;
+}
+/*====================
+    Armada Bus
+======================*/
+#armada-bus .grid-block .list-bus {
+    padding: 14px 15px 11px;
+}
+#armada-bus .list-bus {
+    font-size: 14px;
+    margin: 0px;
+    font-weight: bold;
+    padding: 14px 18px 11px;
+}
+#armada-bus .grid-block .list-bus li.bus {
+    font-size: 22px;
+}
+
+#armada-bus .list-bus li.bus {
+    color: white;
+}
+#armada-bus .list-bus li.bus {
+    font-size: 22px;
+    font-weight: bold;
+}
+/****
+image logo
+ ****/
+img.img-logo{
+    width: 200px;
+}
+@media(max-width: 425px){
+    img.img-logo{
+        width: 150px;
+    }
+    .main-navbar{
+        background: #038C25;
+    }
+}
+#mySidenav #web-name{
+	padding: 25px 0px;
+}
+.search-tabs .nav-tabs li a{
+    background: #038c25;
+}
+.search-tabs .nav-tabs li a{
+    padding: 10px 20px;
+}

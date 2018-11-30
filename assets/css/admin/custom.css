@@ -1,0 +1,305 @@
+/*!
+ *   Custom CSS
+ *   Author: Zainal Amri
+ */
+/*
+ * Core: General Layout Style
+ * -------------------------
+ */
+
+ .p-a-0 {
+  padding: 0px;
+}
+
+.p-a-15 {
+  padding: 15px;
+}
+
+.p-t-0 {
+  padding-top: 0;
+}
+
+.p-t-15 {
+  padding-top: 15px;
+}
+
+.p-b-0 {
+  padding-bottom: 0;
+}
+
+.p-b-15 {
+  padding-bottom: 15px;
+}
+
+.p-r-0 {
+  padding-right: 0;
+}
+
+.p-r-10 {
+  padding-right: 10px;
+}
+
+.p-r-15 {
+  padding-right: 15px;
+}
+
+.p-l-0 {
+  padding-left: 0;
+}
+
+.p-l-15 {
+  padding-left: 15px;
+}
+
+.p-a-30 {
+  padding: 30px;
+}
+
+.p-t-30 {
+  padding-top: 30px;
+}
+
+.p-b-30 {
+  padding-bottom: 30px;
+}
+
+.p-r-30 {
+  padding-right: 30px;
+}
+
+.p-l-30 {
+  padding-left: 30px;
+}
+.p-t-b-0{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.p-t-b-10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.p-t-b-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.p-r-l-15 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.p-t-b-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.p-r-l-30 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.m-a-0 {
+  margin: 0;
+}
+.m-a-15 {
+  margin: 15px;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.m-b-15 {
+  margin-bottom: 15px;
+}
+
+.m-r-5 {
+  margin-right: 5px;
+}
+
+.m-r-15 {
+  margin-right: 15px;
+}
+
+.m-l-15 {
+  margin-left: 15px;
+}
+
+.m-a-30 {
+  margin: 30px;
+}
+
+.m-t-30 {
+  margin-top: 30px;
+}
+
+.m-b-30 {
+  margin-bottom: 30px;
+}
+
+.m-r-30 {
+  margin-right: 30px;
+}
+
+.m-l-30 {
+  margin-left: 30px;
+}
+
+.m-t-b-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.m-r-l-15 {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.m-t-b-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.m-r-l-30 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.login-page, .register-page {
+    background: #184374 url(../../images/bg.jpg) center repeat;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #2B69A2;
+}
+
+thead {
+  background: #f2f2f2;
+}
+
+.main-header .logo .logo-lg img {
+  max-height: 30px;
+  padding-bottom: 5px;
+}
+
+.skin-blue .main-header .logo:hover {
+  background-color: #222;
+}
+.skin-blue .main-header .logo {
+  background-color: #1e4878;
+}
+
+.skin-blue .main-header .navbar {
+  background: #184374 url(../../images/bg.jpg) center repeat;
+}
+
+.skin-blue .sidebar-menu>li.header {
+  text-transform: uppercase;
+}
+
+.navbar-nav h3 {
+  color: #fff;
+  margin: 0;
+  padding: 15px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+  background: #121212;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #121212, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #121212, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main-header .navbar .nav>li.z-user-menu>a>.fa {
+  margin-right: 5px;
+}
+
+.sidebar-menu li>a>.label {
+  position: absolute;
+  top: 9px;
+  right: 7px;
+  text-align: center;
+  font-size: 12px;
+  padding: 4px 5px;
+  line-height: .9;
+}
+
+.navbar-nav>.z-user-menu>.dropdown-menu {
+  width: 180px;
+}
+
+.z-user-menu .dropdown-toggle {
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.small-box h3 {
+  color: #ffffff;
+}
+
+.small-box .icon i {
+  color: #ffffff;
+  font-size: 50px;
+}
+.info-box .info-box-icon a{
+  color: #ffffff;
+}
+
+
+@media (min-width: 768px) {
+  .form-horizontal .z-control-label {
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+.icheckbox_minimal-blue, .iradio_minimal-blue, .icheckbox_square-blue, .iradio_square-blue {
+  margin-right: 5px;
+}
+
+.z-table-search {
+  width: 150px;
+  float: right;
+}
+
+@media (max-width:480px) {
+  .z-table-search {
+    width: auto;
+    float: none;
+    padding-top: 10px;
+  }
+  .z-table-download {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: inline!important;
+    font-family: 'Roboto', sans-serif;
+  }
+  .navbar-nav h3 {
+    font-size: 14px;
+    padding: 17px;
+    font-weight: 500;
+  }
+  .navbar-nav h3 i {
+    padding-right: 5px;
+  }
+  .navbar-custom-menu .navbar-nav>li>a {
+    padding-top: 17px;
+  }
+}
