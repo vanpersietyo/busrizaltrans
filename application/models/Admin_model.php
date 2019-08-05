@@ -175,5 +175,55 @@ class Admin_model extends CI_Model {
 		return  $this->db->get();
 	}
 
+	function kode_auto_pesanan()
+	{
+		$this->db->select_max('RIGHT(kode_pesanan,4)', 'kd_max');//select
+		$query = $this->db->get('pesanan');
+		$kd = "";
+		if($query->num_rows()>0)
+		{
+			foreach($query->result() as $k)
+			{
+				$tmp = ((int)$k->kd_max)+1;
+				$kd = sprintf("%04s", $tmp);
+			}
+		}
+		else
+		{
+			$kd = "0001";
+		}
+		return 'TRVL'.date('dmY').$kd;
+	}
+
+	function kode_booking()
+	{
+		$x=0;
+		$characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+		$charactersLength = strlen($characters);
+		$randomString = '';
+		for ($i = 0; $i < 6; $i++) {
+			$randomString .= $characters[rand(0, $charactersLength - 1)];
+		}
+		$kode = $randomString;
+
+		while ($x==0){
+			$this->db->where("kode_booking ='".$kode."' ");
+			$result=$this->db->get('pesanan');
+			if ($result->num_rows()==0){
+				$kode_booking = $kode;
+				$x = 1;
+			} else {
+				$randomString = '';
+				for ($i = 0; $i < 6; $i++) {
+					$randomString .= $characters[rand(0, $charactersLength - 1)];
+				}
+				$kode=$randomString;
+				$kode_booking = 0;
+			}
+		}
+		return strtoupper($kode_booking);
+	}
+
+
 
 }

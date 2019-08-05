@@ -149,7 +149,7 @@
                                             <div class="col-lg-6">
 
                                                 <label>Dari Tanggal:</label>
-                                                <input required="required" autocomplete="off" placeholder="DD/MM/YYYY" onchange="hitung_hari()" type="text" class="form-control" name="tanggal_awal" id="datepicker" data-date-format="dd/mm/yyyy">
+                                                <input required="required" value="<?=date('d/m/Y')?>" onchange="hitung_hari()" type="text" class="form-control" name="tanggal_awal" id="datepicker" data-date-format="dd/mm/yyyy">
                                             </div>
                                             <div class="col-lg-6">
 
@@ -342,9 +342,11 @@
             data: $('#dataform').serialize(),
             success: function(data){
                 $('#result_ajax').html(data);
+				hapus_data_pemesan();
+				$('#dataform')[0].reset();
             },
             error: function(data){
-                alert('error');
+                // alert('error');
             },
         });
     };
@@ -360,7 +362,7 @@
 				hitungtagihan();
 			},
 			error: function(data){
-				alert('error');
+				// alert(data);
 			},
 		});
 	};
@@ -399,16 +401,26 @@
 					hitungtagihan();
 				},
 				error: function(data){
-					alert('error');
+					// alert(data);
 				},
 			});
 		}
     };
 
         //datepicker
-    $(function() {
-        $( "#datepicker" ).datepicker();
-        $( "#datepicker2" ).datepicker();
+	$(function() {
+		var date = new Date();
+		date.setDate(date.getDate());
+
+		$('#datepicker').datepicker({
+			startDate: date
+		});
+		$('#datepicker2').datepicker({
+			startDate: date
+		});
+
+        // $( "#datepicker" ).datepicker();
+        // $( "#datepicker2" ).datepicker();
     });
 
     //untuk mengambil value dari modal customer
@@ -454,7 +466,6 @@
         var c = a-b;
         document.getElementById("SisaTagihan").value  = convertToRupiah(c);
     }
-
 
     //untuk gatni metode pembayaran
     function ganti_metode_pembayaran(){
@@ -518,7 +529,6 @@
         $("#CatatanPemesan").removeAttr('readonly');
     }
 
-
     //datatable untuk modals customer
     $(function () {
         $('#example2').DataTable({
@@ -529,7 +539,6 @@
             'info'        : false
         })
     })
-
 
     //icheck checkbox
     $(function () {

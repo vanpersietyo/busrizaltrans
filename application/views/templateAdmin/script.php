@@ -1,22 +1,22 @@
 <script type="text/javascript">
 
-	window.setInterval(function(){
-		$.ajax({
-			url : "<?php echo site_url('admin/notify');?>",
-			success: function (result) {
-				$('.notify').html(result);
-			}
-		})
-	}, 4000);
-
-	window.setInterval(function(){
-		$.ajax({
-			url : "<?php echo site_url('admin/notifikasi');?>",
-			success: function (result) {
-				$('.notifikasi').html(result);
-			}
-		})
-	}, 5000);
+	//window.setInterval(function(){
+	//	$.ajax({
+	//		url : "<?php //echo site_url('admin/notify');?>//",
+	//		success: function (result) {
+	//			$('.notify').html(result);
+	//		}
+	//	})
+	//}, 4000);
+    //
+	//window.setInterval(function(){
+	//	$.ajax({
+	//		url : "<?php //echo site_url('admin/notifikasi');?>//",
+	//		success: function (result) {
+	//			$('.notifikasi').html(result);
+	//		}
+	//	})
+	//}, 5000);
 
 	function notif() {
 		$.notify({

@@ -1,6 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/**
+ * @property Uploader $uploader
+ */
 class Admin extends CI_Controller {
 
     public function __construct()
@@ -14,12 +17,10 @@ class Admin extends CI_Controller {
             //redirect halaman login
             redirect('login.html');
         }
-
         $this->load->model("admin_model");
         $this->load->library('form_validation');
 		date_default_timezone_set("Asia/Bangkok");
     }
-
 //----------------------------------------START DASHBOARD------------------------------------------//
     public function index()
     {
@@ -621,22 +622,6 @@ class Admin extends CI_Controller {
     }
 //end list proses_edit_armada
 
-	public function form_upload(){
-		$data = array(
-			'templateAdmin' => 'admin/armada/upload_foto',
-			'title'         => "upload foto",
-			'menu'          => 'Armada',
-		);
-		$this->load->view('templateAdmin/layout',$data);
-	}
-
-
-	public function upload(){
-		$file	= url_title($this->input->post('userfile'));
-		$this->load->library('uploader');
-		$upload=$this->uploader->do_upload_img($file);
-		var_dump($upload);
-	}
 //end list armada
 
 //----------------------------------------END FASILITAS------------------------------------------//
@@ -1098,6 +1083,115 @@ class Admin extends CI_Controller {
 		}
 
 	}
+
+	public function form_upload(){
+		$data = array(
+			'templateAdmin' => 'admin/armada/upload_foto',
+			'title'         => "upload foto",
+			'menu'          => 'Armada',
+		);
+		$this->load->view('templateAdmin/layout',$data);
+	}
+
+	public function upload(){
+		$this->load->library('uploader');
+		$file	= url_title($this->input->post('userfile'));
+		$upload=$this->uploader->do_upload_img($file);
+		var_dump($upload);
+	}
+
+	/**
+	 * @param $number
+	 * @return bool
+	 * @throws Exception
+	 */
+	function checkNum($number) {
+		if($number>1) {
+			throw new Exception("Value must be 1 or below",'1');
+		}elseif ($number==null){
+			throw new Exception("Number can't be null",'2');
+		}
+		return true;
+	}
+
+	public function try_catch($number = null){
+		//trigger exception in a "try" block
+		try {
+			$this->checkNum($number);
+			echo "tes";
+			//If the exception is thrown, this text will not be shown
+		}
+
+		//catch exception
+		catch(Exception $e) {
+//			$agen = load_class('Agen', 'application/controllers');
+			echo "<pre>";
+			new Agen();
+			echo "</pre>";
+		}
+	}
+
+	function load_class($class, $directory = 'application/libraries', $param = NULL)
+	{
+		static $_classes = array();
+
+		// Does the class exist? If so, we're done...
+		if (isset($_classes[$class]))
+		{
+			return $_classes[$class];
+		}
+
+		$name = FALSE;
+
+		// Look for the class first in the local application/libraries folder
+		// then in the native system/libraries folder
+		foreach (array(APPPATH, BASEPATH) as $path)
+		{
+			if (file_exists($path.$directory.'/'.$class.'.php'))
+			{
+//				$name = 'CI_'.$class;
+
+				if (class_exists($name, FALSE) === FALSE)
+				{
+					var_dump($path.$directory.'/'.$class.'.php');
+					require_once($path.$directory.'/'.$class.'.php');
+				}
+
+				break;
+			}
+		}
+
+		// Is the request a class extension? If so we load it too
+		if (file_exists(APPPATH.$directory.'/'.config_item('subclass_prefix').$class.'.php'))
+		{
+			$name = config_item('subclass_prefix').$class;
+
+			if (class_exists($name, FALSE) === FALSE)
+			{
+				require_once(APPPATH.$directory.'/'.$name.'.php');
+			}
+		}
+
+		// Did we find the class?
+		if ($name === FALSE)
+		{
+			// Note: We use exit() rather than show_error() in order to avoid a
+			// self-referencing loop with the Exceptions class
+			set_status_header(503);
+			echo 'Unable to locate the specified class: '.$class.'.php';
+			exit(5); // EXIT_UNK_CLASS
+		}
+
+		// Keep track of what we just loaded
+		is_loaded($class);
+
+		$_classes[$class] = isset($param)
+			? new $name($param)
+			: new $name();
+		var_dump($_classes[$class]) ;
+	}
+
+
 }
 /* End of file Admin.php */
 

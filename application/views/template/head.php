@@ -1,7 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rizal Trans - <?php echo $title ?> Sewa Bus Pariwisata Sidoarjo</title>
+
+
+	  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	  <script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+			  google_ad_client: "ca-pub-1126466767266619",
+			  enable_page_level_ads: true
+		  });
+	  </script>
+
+	  <!-- Global site tag (gtag.js) - Google Ads: 766128578 -->
+	  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-766128578"></script>
+	  <script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'AW-766128578');
+	  </script>
+
+	  <script>
+		  gtag('event', 'page_view', {
+			  'send_to': 'AW-766128578',
+			  'user_id': 'replace with value'
+			  'items': [{
+				  'id': 'replace with value',
+				  'start_date': 'replace with value',
+				  'end_date': 'replace with value',
+				  'google_business_vertical': 'hotel_rental'
+			  }, {
+				  'origin': 'replace with value',
+				  'destination': 'replace with value',
+				  'start_date': 'replace with value',
+				  'end_date': 'replace with value',
+				  'google_business_vertical': 'travel'
+			  }]
+		  });
+	  </script>
+	  <!-- Google Tag Manager -->
+	  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		  })(window,document,'script','dataLayer','GTM-53VKRWG');</script>
+	  <!-- End Google Tag Manager -->
+
+
+	  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <script> (adsbygoogle = window.adsbygoogle || []).push({ google_ad_client: "ca-pub-1126466767266619", enable_page_level_ads: true }); </script>
+	  <script async custom-element="amp-auto-ads"
+			  src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+	  </script>
+
+	  <title>Rizal Trans - <?php echo $title ?> Sewa Bus Pariwisata Sidoarjo</title>
     <meta charset="utf-8">
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -222,7 +274,14 @@
 
 
   <body>
+  <amp-auto-ads type="adsense"
+				data-ad-client="ca-pub-1126466767266619">
+  </amp-auto-ads>
     
     <!--====== LOADER =====-->
     <div class="loader"></div>
 
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53VKRWG"
+					height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->

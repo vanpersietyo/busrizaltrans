@@ -55,72 +55,106 @@
                     if ($schedule == null) {?>
                         <h5 class="text-center">Untuk kota tersebut jadwal bus masih belum tersedia</h5>
                     <?php
-                    }else{
+					}else{
+					echo form_open('bus/passanger', array('id'=>'BusSchedule'));?>
+					<input type="hidden" id="datedeparture" name="datedeparture" value="<?=$date_departure?>">
+					<input type="hidden" id="departure" name="departure" value="<?=$departure?>">
+					<input type="hidden" id="arrival" name="arrival" value="<?=$arrival?>">
+					<input type="hidden" id="priceArmada" name="priceArmada" value="">
+					<?php
                     foreach ($schedule as $a){?>
 
                         <div class="list-block main-block cr-list-block">
                             <div class="list-content">
-                                <div class="main-img list-img cr-list-img">
-                                    <a href="#">
-                                        <img src="<?=base_url('/').$a->foto_armada?>" class="img-responsive" alt="car-img" />
-                                    </a>
-                                    <div class="main-mask">
-                                        <ul class="list-unstyled list-inline offer-price-1">
-                                            <?php
-                                            $price = $a->harga - $a->potongan_harga;
-                                            ?>
-                                            <li class="price"><span class="divider">IDR. <?=number_format($price)?></span><span class="pkg"><?=$a->durasi;?> Hari Tour</span></li>
-                                        </ul>
-                                    </div><!-- end main-mask -->
-                                </div><!-- end cr-list-img -->
-
                                 <div class="list-info cr-list-info">
-                                    <h3 class="block-title"><a href="car-detail-left-sidebar.html"><?=$a->nama_harga?></a></h3>
-                                    <!-- <p class="block-minor">Range Rover</p> -->
-                                    <ul class="list-unstyled list-inline car-features">
-                                    <?php
-                                    foreach ($fasilitas as $fas){
-                                        if ($fas->id_armada == $a->id_armada){
-                                            if ($fas->id_fasilitas == 9){?>
-                                               <li><span><i class="fas fa-snowflake-o "></i></span></li>
-                                            <?php
-                                            }
-                                            if ($fas->id_fasilitas == 12){?>
-                                                <li><span><i class="fas fa-smoking"></i></span></li>
-                                            <?php
-                                            }
-                                            if ($fas->id_fasilitas == 10){?>
-                                                <li><span><i class="fas fa-microphone"></i></span></li>
-                                            <?php
-                                            }
-                                            if ($fas->id_fasilitas == 13){?>
-                                                <li><span><i class="fas fa-tv"></i></span></li>
-                                                <?php
-                                            }
-                                            
-                                        }
-                                    }
-                                    ?>
-                                        
-                                        
-                                        
-                                        
-                                    </ul>
-                                    <a href="<?=base_url('bus/passanger')?>" class="btn btn-green btn-lg">Pesan Sekarang</a>
-                                </div><!-- end crs-list-info -->
-                            </div><!-- end list-content -->
-                        </div><!-- end cr-list-block -->
-
+                                    <div class="col-sm-12">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <img src="<?=base_url('/').$a->foto_armada?>" class="obj-fit-cover" alt="car-img" />
+                                            </div>
+                                            <div class="col-sm-8 detail-list">
+                                                <div class="row">
+                                                    <div class="col-sm-8">
+                                                    <h3 class="block-title title-package"><a href="#"><?=$a->nama_harga?></a></h3> 
+                                                    <ul class="list-unstyled list-inline car-features">
+                                                        <?php
+                                                        foreach ($fasilitas as $fas){
+                                                            if ($fas->id_armada == $a->id_armada){
+                                                                if ($fas->id_fasilitas == 9){?>
+                                                                    <li><span><i class="fas fa-snowflake-o "></i></span></li>
+                                                                <?php
+                                                                }
+                                                                if ($fas->id_fasilitas == 12){?>
+                                                                    <li><span><i class="fas fa-smoking"></i></span></li>
+                                                                <?php
+                                                                }
+                                                                if ($fas->id_fasilitas == 10){?>
+                                                                    <li><span><i class="fas fa-microphone-alt"></i></span></li>
+                                                                <?php
+                                                                }
+                                                                if ($fas->id_fasilitas == 13){?>
+                                                                    <li><span><i class="fas fa-tv"></i></span></li>
+                                                                <?php
+                                                                }
+                                                                if ($fas->id_fasilitas ==19) {?>
+                                                                    <li><span><i class="fas fa-charging-station"></i></span></li>
+                                                                <?php
+                                                                }
+                                                            }
+                                                        }
+                                                        ?>
+                                                    </ul>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <div class="row">
+                                                                    <?php
+                                                                        $price = $a->harga - $a->potongan_harga;
+                                                                    ?>
+                                                                    <label class="text-center price-schedule">Rp. <?=number_format($price)?></label>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-12">
+                                                                <div class="row">
+                                                                    <div class="grid-btn">
+                                                                        <input type="button" id="<?=$a->kode_harga?>" class="busDetail btn btn-green btn-lg btn-block m-t-0" value="Booking">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
                     <?php
-                    }
+					}
+					echo form_close();?>
+					</div>
+					<?php
                     }
                     ?>
 
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 
 
-                </div><!-- end columns -->
-
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end car-listing -->
-</section><!-- end innerpage-wrapper -->
+<script type="text/javascript">
+$(document).on("click",".busDetail",function() {
+    console.log(this.id);
+    $("#datedeparture").val();
+    $("#departure").val();
+    $("#arrival").val();
+	$("#priceArmada").val(this.id);
+    $("#BusSchedule").submit();
+})
+</script>

@@ -6,8 +6,6 @@
  * Time: 10:58
  */
 ?>
-
-
 	<div class="row">
 		<div class="col-md-12">
 			<?php
@@ -17,11 +15,11 @@
 					<h4><i class="icon fa fa-ban"></i> Gagal!</h4>
 					<?=validation_errors()?> 
 				</div>
-			<?php } elseif($notif=='add_armada_sukses') {?>
+			<?php } elseif($notif=='add_booking_sukses') {?>
 				<div class="alert alert-success alert-dismissible">
 					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 					<h4><i class="icon fa fa-check"></i> Sukses!</h4>
-					Armada <?=$kode_armada?> Berhasil Ditambahkan.
+					Pesanan <?=$kode_pesanan?> Berhasil Ditambahkan.
 				</div>
 			<?php }elseif($notif=='hapus_armada_berhasil') {?>
 				<div class="alert alert-danger alert-dismissible">

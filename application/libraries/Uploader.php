@@ -13,6 +13,7 @@ class Uploader {
 	public function __construct()
 	{
 		$this->CI =& get_instance();
+		date_default_timezone_set("Asia/Bangkok");
 	}
 
 	function do_upload_img($file)
