@@ -18,10 +18,11 @@
                     <li class="item-1 back-size">
                     	<div class="meta">         
                             <div class="container">
-                            	<span class="highlight-price highlight-2">HARGA MULAI 5 JUTA-an SAJA </span>
-                                <h2>Yogyakarta</h2>
+                            	<span class="highlight-price highlight-2">Setiap Hari Jumat</span>
+                                <h2>Diskon 40%</h2>
                                 <p>
-                                    Borobudur adalah sebuah candi Buddha yang terletak di Borobudur, Magelang, Jawa Tengah, Indonesia. Candi ini berlokasi di kurang lebih 100 km di sebelah barat daya Semarang, 86 km di sebelah barat Surakarta, dan 40 km di sebelah barat laut Yogyakarta.
+									Dapatkan diskon 40% untuk setiap pemesanan anda di hari jumat barokah.<br>
+									*Syarat dan Ketentuan Berlaku
                                 </p>
                             </div><!-- end container -->  
                         </div><!-- end meta -->
@@ -30,11 +31,12 @@
                     <li class="item-2 back-size">
                         <div class=" meta">         
                             <div class="container">
-                            	<span class="highlight-price highlight-2">HARGA MULAI 7 JUTA-an SAJA</span>
-                                <h2>Bali</h2>
+                            	<span class="highlight-price highlight-2">Untuk Panti Asuhan dan Anak Yatim Piatu</span>
+                                <h2>Diskon 50%</h2>
                                 <p>
-                                    Bali adalah primadona pariwisata Indonesia yang sudah terkenal di seluruh dunia. Selain terkenal dengan keindahan alam, terutama pantainya, Bali juga terkenal dengan kesenian dan budayanya yang unik dan menarik.
-                                </p>
+                                    Dapatkan potongan harga sampai 50% untuk pemesanan anda jika dari panti asuhan atau untuk rombongan anak-anak yatim piatu.<br>
+									*Syarat dan Ketentuan Berlaku
+								</p>
                             </div><!-- end container -->  
                         </div><!-- end meta -->
                     </li><!-- end item-2 -->
