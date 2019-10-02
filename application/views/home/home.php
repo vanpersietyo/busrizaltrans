@@ -19,7 +19,7 @@
                     	<div class="meta">         
                             <div class="container">
                             	<span class="highlight-price highlight-2">Setiap Hari Jumat</span>
-                                <h2>Diskon 40%</h2>
+                                <h2>Diskon 10%</h2>
                                 <p>
 									Dapatkan diskon 10% untuk setiap pemesanan anda di hari jumat barokah.<br>
 									*Syarat dan Ketentuan Berlaku
