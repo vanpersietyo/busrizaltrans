@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1 class="page-title">Kontak</h1>
+                <h1 class="page-title">Contact CV RIZAL TRANS SEJAHTERA</h1>
             </div><!-- end columns -->
         </div><!-- end row -->
     </div><!-- end container -->

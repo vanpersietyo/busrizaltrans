@@ -7,7 +7,7 @@
             <div class="row" align="center">
                 <div class="col-sm-7">
                     <h4>
-                        Daftarkan alamat email Anda sekarang dan jadi yang pertama tahu tentang promo terbaru Rizal Trans!
+                        Daftarkan alamat email Anda sekarang dan jadi yang pertama tahu tentang promo terbaru Rizal Trans by CV RIZAL TRANS SEJAHTERA!
                     </h4>
                 </div>
                 <div class="col-sm-3">
