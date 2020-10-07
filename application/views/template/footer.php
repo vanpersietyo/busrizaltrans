@@ -38,6 +38,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-widget ftr-contact">
                     <h3 class="footer-heading">Contact Us</h3>
                     <ul class="list-unstyled">
+                        <li><a target="_blank" href="<?=site_url('profile.html')?>"><span><i class="fa fa-globe"></i></span>CV. RIZAL TRANS SEJAHTERA</a></li>
                         <li><a target="_blank" href="https://goo.gl/maps/H5N5rtiRNxs"><span><i class="fa fa-map-marker"></i></span>Jl Mayjen Bambang Yuwono No 121,Balongbendo Sidoarjo, Jawa Timur</a></li>
                         <li><a target="_blank" href="tel:081357874401"><span><i class="fa fa-phone"></i></span>081357874401</a></li>
                         <li><a target="_blank" href="mailto:cs@busrizaltrans.com"><span><i class="fa fa-envelope"></i></span>info@busrizaltrans.com</a></li>
@@ -67,8 +68,8 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 footer-widget ftr-about">
                     <h3 class="footer-heading">Tentang Kami</h3>
-                    <p>
-                        Rizal Trans sewa bus pariwisata sidoarjo berkomitmen mempertemukan antara kualitas perusahaan jasa sewa bus pariwisata sidoarjo dengan ragam pelayanan yang prima dan harga sewa bus pariwisata sidoarjo paling murah serta kompetitif baik jenis bus besar maupun medium bus.
+                    <p style="text-align: justify">
+                        Rizal Trans bus pariwisata sidoarjo berada di bawah naungan CV RIZAL TRANS SEJAHTERA yang berkomitmen mempertemukan antara kualitas perusahaan jasa sewa bus pariwisata sidoarjo dengan ragam pelayanan yang prima dan harga sewa bus pariwisata sidoarjo paling murah serta kompetitif baik jenis bus besar maupun medium bus.
                     </p>
                     <ul class="social-links list-inline list-unstyled">
                         <li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
@@ -89,7 +90,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="copyright">
-                    <p>© 2018 <a href="#">Bii-Design</a>. All rights reserved.</p>
+                    <p>© 2018 <a href="#">CV RIZAL TRANS SEJAHTERA</a>. All rights reserved.</p>
                 </div><!-- end columns -->
 
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="terms">

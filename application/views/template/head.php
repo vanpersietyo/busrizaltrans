@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-
-
 	  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	  <script>
 		  (adsbygoogle = window.adsbygoogle || []).push({
@@ -53,20 +51,19 @@
 			  src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 	  </script>
 
-	  <title>Rizal Trans - <?php echo $title ?> Sewa Bus Pariwisata Sidoarjo</title>
+	  <title>Rizal Trans - <?php echo isset($title) ? $title : '' ?> Sewa Bus Pariwisata Sidoarjo by CV RIZAL TRANS SEJAHTERA</title>
     <meta charset="utf-8">
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <link rel="icon" href="<?=base_url('favicon.ico')?>" type="image/x-icon">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-      <meta name="keywords" content="sewa bus, bus pariwisata, bus sidoarjo, tour, travel, sewa bus surabaya" />
-      <meta name="author" content="Rizal Trans" />
-      <meta property="og:title" content="Sewa Bus Pariwisata Rizal Trans"/>
+      <meta name="keywords" content="sewa bus, bus pariwisata, bus sidoarjo, tour, travel, sewa bus surabaya,CV RIZAL TRANS SEJAHTERA,RIZAL TRANS SEJAHTERA" />
+      <meta name="author" content="CV RIZAL TRANS SEJAHTERA" />
+      <meta property="og:title" content="Sewa Bus Pariwisata Rizal Trans by CV RIZAL TRANS SEJAHTERA"/>
       <meta property="og:image" content="<?=base_url('assets/images/rizaltrans/tour-3.jpg')?>"/>
       <meta property="og:url" content="http://www.busrizaltrans.com"/>
       <meta property="og:site_name" content="http://www.busrizaltrans.com"/>
-      <meta property="og:description" content="Sewa Bus Pariwisata Sidoarjo. Enjoy Your Holiday Low Price. Hubungi 081357874401"/>
-
+      <meta property="og:description" content="Sewa Bus Pariwisata Sidoarjo by CV RIZAL TRANS SEJAHTERA. Enjoy Your Holiday Low Price. Hubungi 081357874401"/>
 
       <!-- Google Fonts -->
       <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i%7CMerriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">

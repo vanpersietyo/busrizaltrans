@@ -31,7 +31,7 @@
 						</div>
 						<div class="page-body">
                             <h5><strong>Apa Itu Rizal Trans ?</strong></h5>
-							<p>Untuk kebutuhan rental bus pariwisata area sidoarjo, surabaya, mojokerto, gersik, pasuruan dan sekitarnya. Kami adalah perusahaan jasa bus pariwisata murah di sidoarjo yang berlokasi di wilayah sidoarjo utara</p>
+							<p>Rizal trans adalah persewaan bus pariwisata yang bernaung di bawah manajemen CV RIZAL TRANS SEJAHTERA dan bergerak di bidang jasa transpotasi pariwisata sejak tahun 2013. Untuk kebutuhan rental bus pariwisata area sidoarjo, surabaya, mojokerto, gersik, pasuruan dan sekitarnya. Kami adalah perusahaan jasa bus pariwisata murah di sidoarjo yang berlokasi di wilayah sidoarjo utara</p>
 							<p>Rizal Trans sewa bus pariwisata sidoarjo berkomitmen mempertemukan antara kualitas perusahaan jasa sewa bus pariwisata sidoarjo dengan ragam pelayanan yang prima dan harga sewa bus pariwisata sidoarjo paling murah serta kompetitif baik jenis bus besar maupun medium bus</p>
 							<h5><strong>Kenapa Rizal Trans rental bus pariwisata di sidoarjo menjadi pilihan sewa bus di sidoarjo? </strong></h5>
 							<p>karena persewaan bus di sidoarjo Rizal Trans memiliki banyak pilihan armada sebagai pilihan sewa bus di sidoarjo ataupun biro perjalanan, carter, travel sidoarjo, malang, bali,denpasar atau sesuai dengan kebutuhan transportasi anda baik dalam kota maupun luar kota</p>
