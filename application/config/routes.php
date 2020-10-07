@@ -5,6 +5,11 @@ $route['default_controller'] 	= 'home';
 $route['404_override'] 			= '';
 $route['translate_uri_dashes'] 	= FALSE;
 
+if(file_exists(FCPATH.'.env')){
+	$dotenv = Dotenv\Dotenv::createImmutable(FCPATH);
+	$dotenv->load();
+}
+
 //Blog
 $route['blog.html']              ='Blog';
 $route['contact.html']           ='home/contact';

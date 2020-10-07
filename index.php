@@ -1,6 +1,6 @@
 <?php
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
+if(!isset($_SESSION)) {
+	session_start();
 }
 /**
  * CodeIgniter
@@ -56,7 +56,10 @@ if (session_status() == PHP_SESSION_NONE) {
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+$path_index	= $_SERVER['SERVER_NAME'];
+$devl 		= ['localhost','local.test'];
+$env_index 	= in_array($path_index,$devl) ? 'development' : 'production';
+define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : $env_index);
 
 /*
  *---------------------------------------------------------------

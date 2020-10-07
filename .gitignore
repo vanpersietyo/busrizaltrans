@@ -31,9 +31,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /tests/results/
 
 ##CONFIG
-.htaccess
-application/config/config.php
-application/config/database.php
-application/config/routes.php
 *.zip
 ci_sessions/*
+.env
