@@ -13,6 +13,7 @@
         <div class="collapse navbar-collapse" id="myNavbar1">
             <ul class="nav navbar-nav navbar-right">
                 <li class=""><a href="<?=site_url('')?>">Home</a></li>
+                <li class=""><a href="<?=site_url('profile.html')?>">About Us</a></li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Bus<span><i class="fa fa-angle-down"></i></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="<?=site_url('bus')?>">Reservasi Bus</a></li>

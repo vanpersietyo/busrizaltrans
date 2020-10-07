@@ -36,7 +36,7 @@
             <div class="row">
 
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 footer-widget ftr-contact">
-                    <h3 class="footer-heading">Kontak Kami</h3>
+                    <h3 class="footer-heading">Contact Us</h3>
                     <ul class="list-unstyled">
                         <li><a target="_blank" href="https://goo.gl/maps/H5N5rtiRNxs"><span><i class="fa fa-map-marker"></i></span>Jl Mayjen Bambang Yuwono No 121,Balongbendo Sidoarjo, Jawa Timur</a></li>
                         <li><a target="_blank" href="tel:081357874401"><span><i class="fa fa-phone"></i></span>081357874401</a></li>
@@ -51,8 +51,8 @@
                         <li><a href="#">Reservasi Bus</a></li>
                         <li><a href="#">Tours</a></li>
                         <li><a href="#">Galery</a></li>
-                        <li><a href="<?=site_url('profile.html')?>">Tentang Kami</a></li>
-                        <li><a href="<?=site_url('contact.html')?>">Kontak Kami</a></li>
+                        <li><a href="<?=site_url('profile.html')?>">About Us</a></li>
+                        <li><a href="<?=site_url('contact.html')?>">Contact Us</a></li>
                     </ul>
                 </div><!-- end columns -->
 
