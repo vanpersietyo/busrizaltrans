@@ -36,3 +36,4 @@ application/config/config.php
 application/config/database.php
 application/config/routes.php
 *.zip
+ci_sessions/*
